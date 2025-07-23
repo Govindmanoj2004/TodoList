@@ -46,8 +46,10 @@ class TodoTile extends StatelessWidget {
             ),
           ],
         ),
-        child: Container(
+        child: AnimatedContainer(
           padding: EdgeInsets.all(24),
+          duration: Duration(milliseconds: 300),
+          curve: Curves.ease,
           decoration: BoxDecoration(
             color: taskState
                 ? Colors.teal[400] // Checked task
