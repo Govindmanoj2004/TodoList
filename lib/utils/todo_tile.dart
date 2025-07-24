@@ -34,6 +34,7 @@ class TodoTile extends StatelessWidget {
               SlidableAction(
                 onPressed: editTask,
                 icon: Icons.edit,
+                foregroundColor: Colors.white,
                 backgroundColor: Colors.green.shade400,
                 borderRadius: BorderRadius.all(Radius.circular(12)),
               ),
@@ -41,6 +42,7 @@ class TodoTile extends StatelessWidget {
             SlidableAction(
               onPressed: deleteTask,
               icon: Icons.delete,
+              foregroundColor: Colors.white,
               backgroundColor: Colors.red.shade400,
               borderRadius: BorderRadius.all(Radius.circular(12)),
             ),
